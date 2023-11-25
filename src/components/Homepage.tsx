@@ -17,10 +17,10 @@ export function Homepage() {
                   src={"/wavingHand.png"}
                   alt="waving_hand"
                 />
-                <p className="text-[18px] font-mulish text-gray-700">
+                <p className="text-[18px] text-gray-700">
                   Hi, I'm Prashant Tomar. A passionate Front-end React <br />
                   Developer based in India. 📍
-                </p>
+                </p> 
                 <span className="cursor-pointer flex my-6 gap-5 h-44">
                   <a
                     aria-label="linkedin"
