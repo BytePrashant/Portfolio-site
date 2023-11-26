@@ -73,7 +73,7 @@ export function Homepage() {
               <div className="hero-img relative w-2/5 h-64">
                 <img
                   className=""
-                  src={"/hero.png"}
+                  src={"/hero.jpg"}
                   alt="hero-img"
                 />
               </div>

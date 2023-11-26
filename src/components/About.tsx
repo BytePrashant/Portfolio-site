@@ -6,14 +6,18 @@ export function About() {
           <div id="content" className="w-[990px] h-[355px] flex items-center">
             <div
               id="img-side"
-              className="relative flex flex-col w-[495px] h-[354px]"
+              className="relative w-[495px] h-[354px] "
             >
               <img
                 src="/static/media/working-emoji.c5325f52b5be329995a5.png"
                 alt="emoji"
-                className="work-emoji"
+                className="work-emoji absolute bottom-35 right-98 w-24 z-10"
               />
-              <img src="" alt="mee" className="img-side__main-img" />
+              <img
+                src="/computer.webp"
+                alt="mee"
+                className="main-img object-cover rounded-lg h-140 w-164"
+              />
               <span>
                 <img
                   src="/static/media/text2.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg"
@@ -22,13 +26,13 @@ export function About() {
               </span>
             </div>
             <div className="text-side  flex flex-col w-[495px] h-[354px]">
-              <h3 className="font-[sans-serif] font-bold uppercase text-blue-500 text-base pb-1">
+              <h3 className="font-[sans-serif] font-bold uppercase text-blue-500 text-base mb-3">
                 About me
               </h3>
-              <h4 className="h-[70px] text-2xl my-2 font-bold">
+              <h4 className="h-[70px] text-2xl mb-4 font-bold">
                 A dedicated Front-end Developer <br /> based in India 📍
               </h4>
-              <p className="w-[480px] h-[238px] font-normal font-['Segoe UI Emoji'] text-gray-900 leading-6 text-lg/[17px]">
+              <p className="w-[480px] h-[238px] text-[18px] text-gray-700">
                 As a Junior Front-End Developer, I possess an impressive arsenal
                 of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I
                 excel in designing and maintaining responsive websites that
