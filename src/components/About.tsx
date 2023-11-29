@@ -9,18 +9,18 @@ export function About() {
               className="relative w-[495px] h-[354px] "
             >
               <img
-                src="/static/media/working-emoji.c5325f52b5be329995a5.png"
+                src="/working_emoji.png"
                 alt="emoji"
                 className="work-emoji absolute bottom-35 right-98 w-24 z-10"
               />
               <img
                 src="/computer.webp"
                 alt="mee"
-                className="main-img object-cover rounded-lg h-140 w-164"
+                className="main-img object-cover rounded-lg w-[410px] h-[350px]"
               />
               <span>
                 <img
-                  src="/static/media/text2.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg"
+                  src="/text.svg"
                   alt="text"
                 />
               </span>

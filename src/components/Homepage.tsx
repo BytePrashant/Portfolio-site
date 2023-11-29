@@ -7,20 +7,20 @@ export function Homepage() {
       >
         <div className="container w-[1030px] h-[650px] mx-[249px] px-10">
           <div className="content flex items-center justify-center gap-40 h-4/5 relative">
-            <div className="hero-main flex items-center justify-center w-[950px] h-[350px] gap-x-40">
+            <div className="hero-main flex items-center justify-center w-[950px] h-[350px] gap-x-32">
               <div className="hero-text flex flex-col relative w-[500px] h-[325px]">
                 <h1 className="text-6xl font-semibold text-gray-800 my-6">
                   Front-End React Developer
                 </h1>
                 <img
-                  className="absolute right-0 h-16 w-16 mr-20 top-20"
+                  className="absolute right-0 h-16 w-16 mr-32 top-20"
                   src={"/wavingHand.png"}
                   alt="waving_hand"
                 />
                 <p className="text-[18px] text-gray-700">
                   Hi, I'm Prashant Tomar. A passionate Front-end React <br />
                   Developer based in India. 📍
-                </p> 
+                </p>
                 <span className="cursor-pointer flex my-6 gap-5 h-44">
                   <a
                     aria-label="linkedin"
@@ -70,9 +70,9 @@ export function Homepage() {
                   </a>
                 </span>
               </div>
-              <div className="hero-img relative w-2/5 h-64">
+              <div className="hero-img">
                 <img
-                  className=""
+                  className="hero-img bg-cover bg-center border-3 border-gray-700 h-80 w-80 rounded-full transition-transform duration-1000 ease-in-out transform hover:scale-110"
                   src={"/hero.jpg"}
                   alt="hero-img"
                 />

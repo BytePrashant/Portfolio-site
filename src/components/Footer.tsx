@@ -3,16 +3,16 @@ export function Footer() {
     <div>
       <footer className="relative flex flex-col py-14 bg-gray-800">
         <div className="container w-[1070px] h-[50px] mx-56 px-10">
-          <div className="footer w-[990px] h-[50px] flex justify-between">
-            <h3 className="text-xl text-white ">
+          <div className="footer w-[990px] h-[50px] flex justify-between items-center">
+            <h3 className="text-lg font-bold my-4 text-white ">
               Copyright © 2023. All rights are reserved
             </h3>
-            <div className="footerc__socials flex justify-center text-white">
+            <div className="footerc__socials flex items-center justify-between gap-8 mt-1 text-white">
               <a
                 aria-label="linkedin"
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/stefan-topalovic-dev/"
+                href="https://www.linkedin.com/in/prashant-tomar-504355200/"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ export function Footer() {
                 aria-label="github"
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/stefvndev"
+                href="https://github.com/BytePrashant"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
