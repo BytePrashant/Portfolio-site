@@ -9,7 +9,7 @@ export function Contact() {
                   contact
                 </p>
                 <h3 className="h-10 font-bold text-gray-800 text-3xl">
-                  Don't be shy! Hit me up! 👇
+                  Liked my Portfolio? Hit me up! 👇
                 </h3>
               </div>
               <div className="contact__icons w-full relative flex gap-10 mt-16">
