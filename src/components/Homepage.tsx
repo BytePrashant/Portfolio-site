@@ -10,7 +10,7 @@ export function Homepage() {
             <div className="hero-main flex items-center justify-center w-[950px] h-[350px] gap-x-32">
               <div className="hero-text flex flex-col relative w-[500px] h-[325px]">
                 <h1 className="text-6xl font-semibold text-gray-800 my-6">
-                  Front-End React Developer
+                  Full-Stack Web Developer
                 </h1>
                 <img
                   className="absolute right-0 h-16 w-16 mr-32 top-20"
@@ -18,7 +18,7 @@ export function Homepage() {
                   alt="waving_hand"
                 />
                 <p className="text-[18px] text-gray-700">
-                  Hi, I'm Prashant Tomar. A passionate Front-end React <br />
+                  Hi, I'm Prashant Tomar. A passionate Full-Stack Web <br />
                   Developer based in India. 📍
                 </p>
                 <span className="cursor-pointer flex my-6 gap-5 h-44">
@@ -79,36 +79,36 @@ export function Homepage() {
               </div>
             </div>
             <div className="skills flex items-center absolute bottom-0 left-0 w-3/4 h-14">
-              <p className="border-r-2 border-solid border-gray-500 font-semibold w-28 h-5 mr-16 pr-5">
+              <p className="border-r-2 border-solid border-gray-800 font-semibold w-32 h-5 mr-16 pr-5">
                 Tech Stack
               </p>
               <div className="logos">
                 <ul className="flex flex-wrap gap-8">
                   <li>
                     <img
-                      className="hover:translate-y-[-1rem] transition-transforme"
-                      src="https://skillicons.dev/icons?i=html,css"
-                      alt="skill-icon"
-                    />
-                  </li>
-                  <li>
-                    <img
-                      className="hover:translate-y-[-1rem] transition-transforme"
+                      className="hover:translate-y-[-1rem] transition-all duration-500 ease-in-out"
                       src="https://skillicons.dev/icons?i=js,ts"
                       alt="skill-icon"
                     />
                   </li>
                   <li>
                     <img
-                      className="hover:translate-y-[-1rem] transition-transforme"
+                      className="hover:translate-y-[-1rem] transition-all duration-500 ease-in-out"
                       src="https://skillicons.dev/icons?i=react,next"
                       alt="skill-icon"
                     />
                   </li>
                   <li>
                     <img
-                      className="hover:translate-y-[-1rem] transition-transforme"
-                      src="https://skillicons.dev/icons?i=tailwind,scss"
+                      className="hover:translate-y-[-1rem] transition-all duration-500 ease-in-out"
+                      src="https://skillicons.dev/icons?i=nodejs,expressjs"
+                      alt="skill-icon"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      className="hover:translate-y-[-1rem] transition-all duration-500 ease-in-out"
+                      src="https://skillicons.dev/icons?i=materialui,tailwind"
                       alt="skill-icon"
                     />
                   </li>
