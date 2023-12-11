@@ -3,7 +3,7 @@ export function Homepage() {
     <div>
       <section
         id="home"
-        className="hero bg-gray-200 flex flex-col h-screen relative w-full"
+        className="hero bg-gray-200 flex flex-col h-screen relative w-full font-custom1"
       >
         <div className="container w-[1030px] h-[650px] mx-[249px] px-10">
           <div className="content flex items-center justify-center gap-40 h-4/5 relative">
@@ -13,7 +13,7 @@ export function Homepage() {
                   Full-Stack Web Developer
                 </h1>
                 <img
-                  className="absolute right-0 h-16 w-16 mr-32 top-20"
+                  className="absolute right-0 h-16 w-16 mr-24 top-20"
                   src={"/wavingHand.png"}
                   alt="waving_hand"
                 />
@@ -30,15 +30,15 @@ export function Homepage() {
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
+                      width="36"
+                      height="36"
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      className="tabler-icon tabler-icon-brand-linkedin"
+                      className="tabler-icon tabler-icon-brand-linkedin hover:scale-125"
                     >
                       <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
                       <path d="M8 11l0 5"></path>
@@ -55,15 +55,15 @@ export function Homepage() {
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
+                      width="36"
+                      height="36"
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      className="tabler-icon tabler-icon-brand-github"
+                      className="tabler-icon tabler-icon-brand-github hover:scale-125"
                     >
                       <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
                     </svg>
