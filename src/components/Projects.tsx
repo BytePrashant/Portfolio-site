@@ -14,7 +14,7 @@ export function Projects() {
               Each project is a unique piece of development 🧩
             </h3>
             <div className="projects-grid grid grid-cols-1 gap-12 h-auto w-full ">
-              <div className="pro pro__1 flex flex-row gap-20 h-[400px] p-5 bg-white rounded-lg shadow-md">
+              <div className="pro__1 flex flex-row gap-20 h-[400px] p-5 bg-white rounded-lg shadow-md">
                 <div className="pro__img w-[530px] h-auto">
                   <a
                     target="_blank"
@@ -41,10 +41,10 @@ export function Projects() {
                     creating, updating, and selling courses.
                   </p>
                   <div className="stack flex justify-center w-full h-[50px] gap-4 mt-3">
-                    <p className="bg-white shadow-md text-black/75 font-bold p-4">
+                    <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-2">
                       React
                     </p>
-                    <p className="bg-white shadow-md text-black/75 font-bold p-4">
+                    <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-2">
                       Node.js
                     </p>
                   </div>
@@ -98,14 +98,14 @@ export function Projects() {
                   </div>
                 </div>
               </div>
-              <div className="pro pro__1 flex flex-row-reverse gap-20 h-[400px] p-5 bg-white rounded-lg shadow-md">
+              <div className="pro__2 flex flex-row-reverse gap-20 h-[400px] p-5 bg-white rounded-lg shadow-md">
                 <div className="pro__img w-[530px] h-auto">
                   <a
                     target="_blank"
                     href="https://drum-kit-rouge-gamma.vercel.app/"
                     rel="noreferrer"
                   >
-                    <img src="./drum-kit.png" alt="website" />
+                    <img src="./drum-kit.png" alt="website" className="h-[350px] rounded-2xl" />
                   </a>
                 </div>
                 <div className="pro__text flex flex-col items-center justify-center w-[300px] h-auto">
@@ -119,10 +119,10 @@ export function Projects() {
                     the joy of creating beats effortlessly. #DrumKitMagic🎶
                   </p>
                   <div className="stack flex justify-center w-full h-[50px] gap-4 mt-3">
-                    <p className="bg-white shadow-md text-black/75 font-bold p-4">
+                    <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-2">
                       JavaScript
                     </p>
-                    <p className="bg-white shadow-md text-black/75 font-bold p-4">
+                    <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-2">
                       CSS
                     </p>
                   </div>
