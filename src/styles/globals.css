@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,19 +11,26 @@
 }
 
 .hero-img {
-    -webkit-animation: morph 8s ease-in-out infinite;
-    animation: morph 8s ease-in-out infinite;
-    background-image: url(/static/media/pfp_webp.f334283….webp);
-    /* background-position: 50%; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    border: 3px solid #2d2e32;
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    /* height: 35rem; */
-    position: relative;
-    transition: all 1s ease-in-out;
-    /* width: 35rem; */
+  -webkit-animation: morph 8s ease-in-out infinite;
+  animation: morph 8s ease-in-out infinite;
+  background-image: url(/static/media/pfp_webp.f334283….webp);
+  /* background-position: 50%; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  /* height: 35rem; */
+  position: relative;
+  transition: all 1s ease-in-out;
+  /* width: 35rem; */
 }
 
+@keyframes rotate-slow {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
-
+.animated-rotate-slow {
+  animation: rotate-slow 10s linear infinite; /* You can adjust the duration as needed */
+}

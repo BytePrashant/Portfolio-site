@@ -3,7 +3,7 @@ export function Homepage() {
     <div>
       <section
         id="home"
-        className="hero bg-gray-200 flex flex-col h-screen relative w-full font-custom1"
+        className="hero bg-gray-200 flex flex-col h-screen relative w-full"
       >
         <div className="container w-[1030px] h-[650px] mx-[249px] px-10">
           <div className="content flex items-center justify-center gap-40 h-4/5 relative">
@@ -13,7 +13,7 @@ export function Homepage() {
                   Full-Stack Web Developer
                 </h1>
                 <img
-                  className="absolute right-0 h-16 w-16 mr-24 top-20"
+                  className="absolute right-0 h-16 w-16 mr-32 top-20"
                   src={"/wavingHand.png"}
                   alt="waving_hand"
                 />

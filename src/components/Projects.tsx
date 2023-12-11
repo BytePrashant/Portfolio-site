@@ -3,7 +3,7 @@ export function Projects() {
     <div>
       <section
         id="projects"
-        className="bg-gray-200 relative flex flex-col py-40"
+        className="bg-gray-200 relative flex flex-col py-40 font-custom1"
       >
         <div className="container w-[1070px] h-[990px] mx-56 px-10">
           <div className="project-content w-[990px] h-[990px] absolute flex flex-col ">
@@ -45,12 +45,12 @@ export function Projects() {
                       React
                     </p>
                     <p className="bg-white shadow-md text-black/75 font-bold p-4">
-                      Tailwind
+                      Node.js
                     </p>
                   </div>
                   <div className="links flex items-center justify-evenly mt-7 w-full h-[24px]">
                     <a
-                      className="flex items-center text-gray-700 text-lg font-medium gap-1 hover:text-blue-500 transition-all duration-300"
+                      className="flex items-center text-gray-700 text-lg font-medium gap-1 hover:text-blue-500 transition-all duration-300 hover:scale-105"
                       target="_blank"
                       href="https://github.com/BytePrashant/Nudemy"
                       rel="noreferrer"
@@ -72,7 +72,7 @@ export function Projects() {
                       </svg>
                     </a>
                     <a
-                      className="flex items-center text-gray-700 text-lg font-medium gap-1 hover:text-blue-500 transition-all duration-300"
+                      className="flex items-center text-gray-700 text-lg font-medium gap-1 hover:text-blue-500 transition-all duration-300  hover:scale-105"
                       target="_blank"
                       href="https://www.youtube.com/watch?v=votHFNnrQCc&ab_channel=Tomar"
                       rel="noreferrer"
@@ -105,7 +105,7 @@ export function Projects() {
                     href="https://drum-kit-rouge-gamma.vercel.app/"
                     rel="noreferrer"
                   >
-                    <img src="./drum-kit.png" alt="website"/>
+                    <img src="./drum-kit.png" alt="website" />
                   </a>
                 </div>
                 <div className="pro__text flex flex-col items-center justify-center w-[300px] h-auto">
@@ -128,7 +128,7 @@ export function Projects() {
                   </div>
                   <div className="links flex items-center justify-evenly mt-7 w-full h-[24px]">
                     <a
-                      className="flex items-center text-gray-700 text-lg font-medium gap-1 hover:text-blue-500 transition-all duration-300"
+                      className="flex items-center text-gray-700 text-lg font-medium gap-1 hover:text-blue-500 transition-all duration-300 hover:scale-105"
                       target="_blank"
                       href="https://github.com/BytePrashant/Drum-kit"
                       rel="noreferrer"
@@ -150,7 +150,7 @@ export function Projects() {
                       </svg>
                     </a>
                     <a
-                      className="flex items-center text-gray-700 text-lg font-medium gap-1 hover:text-blue-500 transition-all duration-300"
+                      className="flex items-center text-gray-700 text-lg font-medium gap-1 hover:text-blue-500 transition-all duration-300 hover:scale-105"
                       target="_blank"
                       href="https://drum-kit-rouge-gamma.vercel.app/"
                       rel="noreferrer"
