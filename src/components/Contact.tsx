@@ -1,7 +1,7 @@
 export function Contact() {
     return (
       <div>
-        <section id="contact" className="relative flex flex-col py-28">
+        <section id="contact" className="relative flex flex-col py-28 font-custom1">
           <div className="container w-[1070px] h-[187px] mx-56 px-10">
             <div className="contact__content w-[990px] h-[197px] absolute flex flex-col">
               <div className="contact__title  h-20">
@@ -62,7 +62,7 @@ export function Contact() {
                   <div className="contact__info flex flex-col gap-1">
                     <h3 className="font-bold text-gray-800 text-lg">Mail</h3>
                     <a
-                      className="hover:text-blue-500 transition-all duration-300 text-[18px] text-gray-700"
+                      className="hover:text-blue-500 transition-all duration-300 text-[18px] text-gray-700 hover:scale-105"
                       href="mailto:pt092000@gmail.com"
                     >
                       pt092000@gmail.com
