@@ -3,7 +3,7 @@ export function Homepage() {
     <div>
       <section
         id="home"
-        className="hero bg-gray-200 flex flex-col h-screen relative w-full font-custom1" 
+        className="hero bg-gray-200 flex flex-col h-screen relative w-full font-custom1"
       >
         <div className="container w-[1030px] h-[650px] mx-[249px] px-10">
           <div className="content flex items-center justify-center gap-40 h-4/5 relative">
@@ -72,7 +72,7 @@ export function Homepage() {
               </div>
               <div className="hero-img">
                 <img
-                  className="hero-img bg-cover bg-center border-3 border-gray-700 h-80 w-80 rounded-full transition-transform duration-1000 ease-in-out transform hover:scale-110"
+                  className="hero-img bg-cover bg-center border-3 border-gray-700 h-80 w-80 animate-trans-bubble"
                   src={"/hero.jpg"}
                   alt="hero-img"
                 />
