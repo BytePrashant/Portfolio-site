@@ -15,15 +15,16 @@ export function Projects() {
             </h3>
             <div className="projects-grid grid grid-cols-1 gap-12 h-auto w-full ">
               <div className="pro__1 flex flex-row gap-20 h-[400px] p-5 bg-white rounded-lg shadow-md">
-                <div className="pro__img w-[530px] h-auto">
+                <div className="pro__img w-[530px] h-auto overflow-hidden">
                   <a
                     target="_blank"
-                    href="https://car-rental-ten.vercel.app/"
+                    href="https://www.youtube.com/watch?v=votHFNnrQCc&ab_channel=Tomar"
                     rel="noreferrer"
                   >
                     <img
-                      src="/static/media/car-rental-full.c58b37da333d73238fdd.webp"
+                      src="nudemy.png"
                       alt="website"
+                      className="h-[450px] rounded-2xl "
                     />
                   </a>
                 </div>
@@ -33,7 +34,7 @@ export function Projects() {
                     <span className="date-className text-gray-600 text-sm ml-1.5">
                       (November 2023)
                     </span>{" "}
-                    🚗
+                    📒
                   </h3>
                   <p className="text-black/50 text-lg font-medium text-center">
                     A course-selling website that allows users to create and
@@ -41,10 +42,10 @@ export function Projects() {
                     creating, updating, and selling courses.
                   </p>
                   <div className="stack flex justify-center w-full h-[50px] gap-4 mt-3">
-                    <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-2">
+                    <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-1">
                       React
                     </p>
-                    <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-2">
+                    <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-1">
                       Node.js
                     </p>
                   </div>
@@ -105,13 +106,20 @@ export function Projects() {
                     href="https://drum-kit-rouge-gamma.vercel.app/"
                     rel="noreferrer"
                   >
-                    <img src="./drum-kit.png" alt="website" className="h-[350px] rounded-2xl" />
+                    <img
+                      src="./drum-kit.png"
+                      alt="website"
+                      className="h-[350px] rounded-2xl"
+                    />
                   </a>
                 </div>
                 <div className="pro__text flex flex-col items-center justify-center w-[300px] h-auto">
                   <h3 className="flex gap-1 items-center justify-center font-bold text-gray-700 uppercase mb-5">
                     Drum-Kit{" "}
-                    <span className="date-className">(February 2022)</span> 🥁
+                    <span className="date-className text-gray-600 text-sm ml-1.5">
+                      (August 2022)
+                    </span>{" "}
+                    🥁
                   </h3>
                   <p className="text-black/50 text-lg font-medium text-center">
                     Click on drum icons to produce authentic sounds, or unleash
@@ -119,10 +127,10 @@ export function Projects() {
                     the joy of creating beats effortlessly. #DrumKitMagic🎶
                   </p>
                   <div className="stack flex justify-center w-full h-[50px] gap-4 mt-3">
-                    <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-2">
+                    <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-1">
                       JavaScript
                     </p>
-                    <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-2">
+                    <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-1">
                       CSS
                     </p>
                   </div>
