@@ -14,37 +14,39 @@ export function About() {
                 <img
                   src="https://www.stefantopalovic.com/static/media/text2.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg"
                   alt="text"
-                  className="h-[190px] w-[190px] animate-rotate-slow"
+                  className="h-[190px] w-[190px] animate-trans-rotate"
                 />
               </span>
               <img
                 src="/working_emoji.png"
                 alt="emoji"
-                className="work-emoji absolute bottom-14 right-[90px] w-14  overflow-hidden"
+                className="work-emoji absolute bottom-14 right-[90px] w-14 "
               />
             </div>
-            <div className="text-side  flex flex-col w-[495px] h-auto">
-              <h3 className="font-[sans-serif] font-bold uppercase text-blue-500 text-base mb-1">
+            <div className="text-side  flex flex-col w-[495px] h-auto ">
+              <h3 className="font-[sans-serif] font-bold uppercase text-blue-500 text-base mb-3 ml-2">
                 About me
               </h3>
-              <h4 className="h-auto text-2xl mb-2 font-semibold">
-                A not so dedicated Full Stack Web Developer
-              </h4>
-              <p className="w-[480px] h-auto text-[16px] text-gray-800/60 text-justify">
-                A Full Stack Web Developer who learned the art of coding in the
-                same time it takes most people to decide what to watch on
-                Netflix. With the magical powers of a quick learner, I've
-                mastered the art of building beautiful, user-friendly websites.
-                They say laughter is the best medicine, but I believe a
-                well-written code snippet is even better. As a team player, I
-                assure you that my newfound skills will make me an irreplaceable
-                asset to any web development team. Because, you know, who needs
-                years of experience when you've got six months of absolute
-                brilliance under your belt? So, if you're looking for a
-                developer with a sense of humor as sharp as their coding skills,
-                look no further. I promise my websites are not only
-                user-friendly but also certified chuckle-embedded.
-              </p>
+              <div className="bg-gray-200 rounded-2xl px-2">
+                <h4 className="h-auto text-2xl my-2 font-semibold">
+                  A dedicated Full Stack Web Developer
+                </h4>
+                <p className="w-[480px] h-auto text-[16px] text-gray-800/60 text-justify">
+                  A Full Stack Web Developer who learned the art of coding in
+                  the same time it takes most people to decide what to watch on
+                  Netflix. With the magical powers of a quick learner, I've
+                  mastered the art of building beautiful, user-friendly
+                  websites. They say laughter is the best medicine, but I
+                  believe a well-written code snippet is even better. As a team
+                  player, I assure you that my newfound skills will make me an
+                  irreplaceable asset to any web development team. Because, you
+                  know, who needs years of experience when you've got six months
+                  of absolute brilliance under your belt? So, if you're looking
+                  for a developer with a sense of humor as sharp as their coding
+                  skills, look no further. I promise my websites are not only
+                  user-friendly but also certified chuckle-embedded.
+                </p>
+              </div>
             </div>
           </div>
         </div>
