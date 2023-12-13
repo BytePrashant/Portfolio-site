@@ -1,6 +1,4 @@
-import type { Config } from 'tailwindcss';
-
-
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
@@ -18,9 +16,31 @@ const config: Config = {
       fontFamily: {
         custom1: ["Poppins", "sans-serif"],
       },
+      keyframes: {
+        "trans-rotate": {
+          "100%": { transform: "rotate(1turn)" },
+        },
+        "trans-bubble": {
+          "0%": {
+            borderRadius: "60% 40% 30% 70%/60% 30% 70% 40%",
+            border: "3px solid #2d2e32",
+          },
+          "50%": {
+            borderRadius: "30% 60% 70% 40%/50% 60% 30% 60%",
+            border: "3px solid #2d2e32",
+          },
+          "100%": {
+            borderRadius: "60% 40% 30% 70%/60% 30% 70% 40%",
+            border: "3px solid #2d2e32",
+          },
+        },
+      },
+      animation: {
+        "trans-rotate": "trans-rotate 8s linear infinite",
+        "trans-bubble": "trans-bubble 8s ease-in-out infinite",
+      },
     },
   },
   plugins: [],
 };
-export default config
-
+export default config;
