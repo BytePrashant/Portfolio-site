@@ -29,7 +29,7 @@ export function About() {
               </h3>
               <div className="bg-gray-200 rounded-2xl px-2">
                 <h4 className="h-auto text-2xl my-2 font-semibold">
-                  A dedicated Full Stack Web Developer
+                  A Dedicated Full Stack Web Developer
                 </h4>
                 <p className="w-[480px] h-auto text-[16px] text-gray-800/60 text-justify">
                   A Full Stack Web Developer who learned the art of coding in
