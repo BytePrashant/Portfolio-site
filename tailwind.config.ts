@@ -36,8 +36,12 @@ const config: Config = {
         },
       },
       animation: {
-        "trans-rotate": "trans-rotate 8s linear infinite",
-        "trans-bubble": "trans-bubble 8s ease-in-out infinite",
+        "trans-rotate": "trans-rotate 6s linear infinite",
+        "trans-bubble": "trans-bubble 6s ease-in-out infinite",
+      },
+      screens: {
+        "lg": { max: "900px" },
+        "sm": { max: "500px" },
       },
     },
   },
