@@ -1,6 +1,6 @@
 export function Homepage() {
   return (
-    <section id="homepage" className="bg-gray-200 font-custom1 py-10 md:py-28">
+    <section id="homepage" className="bg-gray-200 font-custom1 py-28 md:py-36">
       <div className="container mx-auto md:w-2/3 px-6">
         <div className="content flex flex-col gap-20">
           <div className="hero-main flex flex-col-reverse items-center justify-around gap-10 md:flex-row md:gap-20">

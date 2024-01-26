@@ -34,10 +34,15 @@ const config: Config = {
             border: "3px solid #2d2e32",
           },
         },
+        "trans-slide": {
+          "0%": { transform: 'translateY(0)'},
+          "100%": { transform: 'translateY(-100%)'},
+        },
       },
       animation: {
-        "trans-rotate": "trans-rotate 6s linear infinite",
+        "trans-rotate": "trans-rotate 8s linear infinite",
         "trans-bubble": "trans-bubble 6s ease-in-out infinite",
+        'trans-slide': 'trans-slide 6s ease-in-out infinite',
       },
       screens: {
         "lg": { max: "900px" },

@@ -1,7 +1,6 @@
 export function Appbar() {
   return (
-    <div>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 font-custom1">
+      <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 font-custom1 fixed top-0 w-full z-10">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="#"
@@ -77,6 +76,5 @@ export function Appbar() {
           </div>
         </div>
       </nav>
-    </div>
   );
 }
