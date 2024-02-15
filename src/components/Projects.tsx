@@ -36,9 +36,10 @@ export function Projects() {
                   🚗
                 </h3>
                 <p className="text-black/50 text-lg font-medium text-center">
-                  A course-selling website that allows users to create and sell
-                  courses online like Udemy. It provides an interface for
-                  creating, updating, and selling courses.
+                  Introducing Rental Ride - your go-to platform for
+                  quick and convenient cab bookings. Easily reserve rides,
+                  choose your preferred vehicle, and enjoy a seamless
+                  transportation experience.
                 </p>
                 <div className="stack flex justify-center w-full h-[50px] gap-4 mt-3">
                   <p className="bg-white shadow-md text-black/75 font-bold p-4 hover:-translate-y-1">
@@ -105,11 +106,7 @@ export function Projects() {
                   href="https://www.youtube.com/watch?v=votHFNnrQCc&ab_channel=Tomar"
                   rel="noreferrer"
                 >
-                  <img
-                    src="nudemy.png"
-                    alt="website"
-                    className="rounded-lg"
-                  />
+                  <img src="nudemy.png" alt="website" className="rounded-lg" />
                 </a>
               </div>
               <div className="pro__text flex flex-col items-center justify-center md:px-5">
